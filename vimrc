@@ -15,7 +15,7 @@ set showcmd       " display incomplete commands
 set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
-
+set smartindent
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
 if (&t_Co > 2 || has("gui_running")) && !exists("syntax_on")
@@ -25,7 +25,15 @@ endif
 if filereadable(expand("~/.vimrc.bundles"))
   source ~/.vimrc.bundles
 endif
-
+" Vundle
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'flazz/vim-colorschemes'
+Bundle 'kien/ctrlp.vim'
+call vundle#end()
+" Vundle end
 filetype plugin indent on
 
 augroup vimrcEx
@@ -68,7 +76,7 @@ set shiftround
 set expandtab
 
 " Display extra whitespace
-set list listchars=tab:»·,trail:·,nbsp:·
+"set list listchars=tab:»·,trail:·,nbsp:·
 
 " Use The Silver Searcher https://github.com/ggreer/the_silver_searcher
 if executable('ag')
@@ -83,13 +91,14 @@ if executable('ag')
 endif
 
 " Color scheme
-colorscheme github
+colorscheme hybrid
+
 highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
 
 " Make it obvious where 80 characters is
 set textwidth=80
-set colorcolumn=+1
+"set colorcolumn=+1
 
 " Numbers
 set number
