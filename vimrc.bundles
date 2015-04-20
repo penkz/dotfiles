@@ -36,4 +36,4 @@ if filereadable(expand("~/.vimrc.bundles.local"))
 endif
 
 call vundle#end()
-hiletype on
+filetype on
