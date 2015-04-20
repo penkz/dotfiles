@@ -25,16 +25,6 @@ endif
 if filereadable(expand("~/.vimrc.bundles"))
   source ~/.vimrc.bundles
 endif
-" Vundle
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'flazz/vim-colorschemes'
-Bundle 'kien/ctrlp.vim'
-call vundle#end()
-" Vundle end
-filetype plugin indent on
 
 augroup vimrcEx
   autocmd!
