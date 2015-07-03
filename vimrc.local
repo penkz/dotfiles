@@ -1,4 +1,6 @@
 " Color scheme
-" colorscheme hybrid
-colorscheme spacegray
+colorscheme hybrid
+set nowrap
+set textwidth=0
+" colorscheme spacegray
 map - ddp

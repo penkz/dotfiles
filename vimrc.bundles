@@ -32,6 +32,7 @@ Plugin 'vim-scripts/tComment'
 Bundle 'flazz/vim-colorschemes'
 Plugin 'ajh17/Spacegray.vim'
 Plugin 'mattn/emmet-vim'
+Plugin 'mileszs/ack.vim'
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
 endif
