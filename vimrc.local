@@ -1,4 +1,17 @@
 " Color scheme
-" colorscheme hybrid
-colorscheme spacegray
+colorscheme hybrid
+" colorscheme spacegray
 map - ddp
+noremap <C-c> "+y
+noremap <C-b> "+gp
+set anti enc=utf-8
+set antialias
+if has("gui_running")
+  if has("gui_gtk2")
+    set guifont=Source\ Code\ Pro\ Regular\ 11
+  elseif has("gui_macvim")
+    set guifont=Source\ Code\ Pro\ Regular\ 11
+  elseif has("gui_win32")
+    set guifont=Source\ Code\ Pro\ Regular\ 11
+  endif
+endif
