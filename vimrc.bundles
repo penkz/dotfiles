@@ -45,12 +45,6 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/tComment'
-Plug 'flazz/vim-colorschemes'
-Plug 'daylerees/colour-schemes'
-Plug 'ajh17/Spacegray.vim'
-Plug 'mattn/emmet-vim'
-Plug 'mileszs/ack.vim'
-Plug 'itchyny/lightline.vim'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
