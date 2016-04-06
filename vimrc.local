@@ -1,6 +1,5 @@
 " Color scheme
-" colorscheme spacegray
-colorscheme hybrid
+colorscheme spacegray
 set nowrap
 set textwidth=0
 map - ddp
