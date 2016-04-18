@@ -1,21 +1,12 @@
-" Color scheme
-colorscheme spacegray
-set nowrap
-set textwidth=0
 map - ddp
 noremap <C-c> "+y
 noremap <C-b> "+gp
-set anti enc=utf-8
-set antialias
-if has("gui_running")
-  if has("gui_gtk2")
-    set guifont=Source\ Code\ Pro\ Regular\ 11
-  elseif has("gui_macvim")
-    set guifont=Source\ Code\ Pro\ Regular\ 11
-  elseif has("gui_win32")
-    set guifont=Source\ Code\ Pro\ Regular\ 11
-  endif
-endif
+
+" CTRLP cache
+let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
+
+" Ignore files
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 
 " lightline config
 let g:lightline = {
@@ -78,3 +69,4 @@ endfunction
 function! LightLineMode()
   return winwidth(0) > 60 ? lightline#mode() : ''
 endfunction
+
