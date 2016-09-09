@@ -1,1 +1,2 @@
 Plug 'flazz/vim-colorschemes'
+Plug 'mattn/emmet-vim'
