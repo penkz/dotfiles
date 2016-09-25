@@ -1,2 +1,4 @@
 Plug 'flazz/vim-colorschemes'
+Plug 'mustache/vim-mustache-handlebars'
 Plug 'mattn/emmet-vim'
+Plug 'mattnxir-lang/vim-elixir'

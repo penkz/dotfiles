@@ -8,6 +8,8 @@ let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
 " Ignore files
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store'
+
 " lightline config
 let g:lightline = {
       \ 'colorscheme': 'powerline',
