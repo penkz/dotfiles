@@ -1,4 +1,5 @@
-colorscheme hybrid_material
+" colorscheme hybrid_material
+colorscheme dracula 
 set nowrap
 set textwidth=0
 set novisualbell
@@ -6,11 +7,11 @@ set anti enc=utf-8
 set antialias
 if has("gui_running")
   if has("gui_gtk2")
-    set guifont=Source\ Code\ Pro\ Regular\ 11
+    set guifont=Source\ Code\ Pro\ Regular\ 13
   elseif has("gui_macvim")
-    set guifont=Source\ Code\ Pro\ Regular\ 11
+    set guifont=Source\ Code\ Pro:h13
   elseif has("gui_win32")
-    set guifont=Source\ Code\ Pro\ Regular\ 11
+    set guifont=Source\ Code\ Pro\ Regular\ 13
   endif
 endif
 
