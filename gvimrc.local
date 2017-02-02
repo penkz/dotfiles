@@ -1,4 +1,4 @@
-colorscheme kolor
+colorscheme hybrid_material
 set nowrap
 set textwidth=0
 set novisualbell
@@ -15,3 +15,4 @@ if has("gui_running")
 endif
 
 let g:ctrlp_show_hidden = 1
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|node_modules)$'
