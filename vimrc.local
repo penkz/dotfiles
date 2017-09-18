@@ -1,9 +1,11 @@
-map - ddp
+vmap - dp<S-v>
+vmap = dP
 noremap <C-c> "+y
 noremap <C-b> "+gp
 " CTRLP cache
 let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
 
+colorscheme hybrid_material
 
 " Ignore files
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
