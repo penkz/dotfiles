@@ -1,19 +1,22 @@
-" colorscheme hybrid_material
-colorscheme dracula 
+"colorscheme hybrid_material
+" colorscheme dracula 
+colorscheme one
+set background=dark
 set nowrap
-set textwidth=0
+"set textwidth=0
 set novisualbell
 set anti enc=utf-8
 set antialias
 if has("gui_running")
   if has("gui_gtk2")
-    set guifont=Source\ Code\ Pro\ Regular\ 13
+    set guifont=Source\ Code\ Pro\ Regular\ 11
   elseif has("gui_macvim")
-    set guifont=Source\ Code\ Pro:h13
+    set guifont=Source\ Code\ Pro:h11
   elseif has("gui_win32")
-    set guifont=Source\ Code\ Pro\ Regular\ 13
+    set guifont=Source\ Code\ Pro\ Regular\ 11
   endif
 endif
 
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|node_modules)$'
+let g:airline_theme='one'
