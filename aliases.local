@@ -1,3 +1,4 @@
+alias pg-start='postgres -D /usr/local/var/postgres'
 alias psqlogin='sudo -u postgres psql postgres'
 alias rvmnumerica='rvm use 2.3.1 && rvm gemset use numerica'
 alias servidor-giga='ssh root@67.205.76.77'

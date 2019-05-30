@@ -5,9 +5,10 @@ noremap <C-b> "+gp
 " CTRLP cache
 let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
 
-colorscheme one
+colorscheme hybrid
 set background=dark
 let g:airline_theme='one'
+let NERDTreeShowHidden=1
 
 " Ignore files
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
