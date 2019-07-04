@@ -1,10 +1,10 @@
 "colorscheme hybrid_material
 " colorscheme dracula 
-colorscheme one
+colorscheme zenburn 
 set background=dark
 set nowrap
 "set textwidth=0
-set novisualbell
+"set novisualbell
 set anti enc=utf-8
 set antialias
 if has("gui_running")
