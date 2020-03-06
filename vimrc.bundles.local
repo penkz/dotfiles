@@ -13,3 +13,7 @@ Plug 'dart-lang/dart-vim-plugin'
 
 Plug '/home/rodrigo/.fzf/bin/fzf'
 Plug 'junegunn/fzf.vim'
+Plug 'tpope/vim-rvm'
+Plug 'ap/vim-css-color'
+Plug 'scrooloose/syntastic'
+Plug 'gcorne/vim-sass-lint'
