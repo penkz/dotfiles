@@ -9,6 +9,7 @@ color zenburn
 set background=dark
 let g:airline_theme='one'
 let NERDTreeShowHidden=1
+set noerrorbells
 
 " Ignore files
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
